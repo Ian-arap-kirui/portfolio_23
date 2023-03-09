@@ -84,13 +84,12 @@ const Who = () => {
           <Title>Think outside the square space</Title>
           <WhatWeDo>
             <Line src="./img/line.png" />
-            <Subtitle>Who we Are</Subtitle>
+            <Subtitle>Who am I</Subtitle>
           </WhatWeDo>
           <Desc>
-            a creative group of designers and developers with a passion for the
-            arts.
+            a creative designer and developer with a passion for the arts.
           </Desc>
-          <Button>See our works</Button>
+          <Button>See my works</Button>
         </Right>
       </Container>
     </Section>
