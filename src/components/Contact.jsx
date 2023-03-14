@@ -9,7 +9,7 @@ const Container = styled.div`
   width: 100%;
   height: 100%;
   display: flex;
-
+  flex-direction: row-reverse;
   justify-content: space-between;
   gap: 50px;
 `;
@@ -17,7 +17,7 @@ const Left = styled.div`
   flex: 1;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: flex-start;
 `;
 const Title = styled.h1`
   font-weight: 200;

@@ -12,14 +12,14 @@ const Map = () => {
     <ComposableMap
       projection="geoAzimuthalEqualArea"
       projectionConfig={{
-        rotate: [-10.0, -52.0, 0],
-        center: [-5, -3],
-        scale: 1600,
+        rotate: [-9.0, -50.0, -5],
+        center: [45, -45],
+        scale: 1300,
       }}
       style={{ width: "100%", height: "100%" }}
     >
       <Geographies
-        geography="/features.json"
+        geography="/custom.geo.json"
         fill="#2C065D"
         stroke="#FFFFFF"
         strokeWidth={0.5}
@@ -31,9 +31,9 @@ const Map = () => {
         }
       </Geographies>
       <Annotation
-        subject={[1.2921, 36.8219]}
-        dx={-90}
-        dy={-30}
+        subject={[36.8167, -1.2833]}
+        dx={-45}
+        dy={-15}
         connectorProps={{
           stroke: "white",
           strokeWidth: 2,
@@ -41,7 +41,7 @@ const Map = () => {
         }}
       >
         <text x="-8" textAnchor="end" alignmentBaseline="middle" fill="white">
-          {"I am in Nairobi"}
+          {"I am in Nairobi, Kenya"}
         </text>
       </Annotation>
     </ComposableMap>
