@@ -70,4 +70,4 @@ export default function Shoe({ color, ...props }) {
   );
 }
 
-useGLTF.preload("./shoe.gltf");
+useGLTF.preload("/shoe.gltf");
