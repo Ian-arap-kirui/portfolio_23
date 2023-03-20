@@ -60,8 +60,8 @@ const Right = styled.div`
   position: relative;
 `;
 const Img = styled.img`
-  width: 700px;
-  height: 700px;
+  width: 650px;
+  height: 650px;
   object-fit: contain;
   position: absolute;
   top: 0;
