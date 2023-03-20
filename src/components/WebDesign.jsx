@@ -6,15 +6,13 @@ import Mac from "./Mac";
 
 const Desc = styled.div`
   width: 200px;
-  height: 100px;
+  height: 70px;
   padding: 20px;
   background-color: white;
   border-radius: 10px;
   position: absolute;
   top: 100px;
   right: 100px;
-  color: black;
-
   @media only screen and (max-width: 768px) {
     top: 0;
     bottom: 0;
